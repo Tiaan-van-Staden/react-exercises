@@ -1,0 +1,61 @@
+.calculator {
+  border: 1px solid black;
+  width: 200px;
+  border-radius: 30px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://images.pexels.com/photos/164005/pexels-photo-164005.jpeg?cs=srgb&dl=pexels-fwstudio-164005.jpg&fm=jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.display {
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.count {
+  padding: 0 10px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.buttons {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-image: url('https://www.azom.com/images/Article_Images/ImageForArticle_13089_16013834890159628.png');
+}
+
+.button {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
